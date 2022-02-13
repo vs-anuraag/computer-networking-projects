@@ -1,0 +1,176 @@
+set terminal pdf
+set output "allPlots.pdf"
+set title "DataRate vs Time\n\n"
+
+set terminal postscript eps enhanced color solid font 'Times-Bold,15'
+set output "DataRate.eps"
+set xlabel "Time (s)" offset 0,-1
+set ylabel "DataRate (Mbps)" offset 0,0 
+set grid
+set lmargin 10.0
+set rmargin 5.0
+set key bmargin center horizontal Left reverse noenhanced autotitles columnhead nobox
+
+plot "-"  title "Flow 1" with linespoints, "-"  title "Flow 2" with linespoints, "-"  title "Flow 5" with linespoints
+1 59.3388
+2 49.8304
+3 49.8351
+4 49.8304
+5 49.8351
+6 49.8304
+7 49.8351
+8 49.8304
+9 49.8351
+10 49.8304
+11 49.8351
+12 49.8304
+13 49.8351
+14 49.8304
+15 49.8351
+16 49.8351
+17 49.8304
+18 49.8304
+19 49.8399
+20 49.8256
+21 49.8351
+22 49.8351
+23 49.8304
+24 49.8304
+25 49.8351
+26 49.8304
+27 49.8351
+28 49.8304
+29 49.8351
+e
+1 99.1517
+2 99.6655
+3 99.6655
+4 99.6655
+5 99.6655
+6 99.6655
+7 99.6655
+8 99.6655
+9 99.6655
+10 99.6655
+11 99.6655
+12 99.6655
+13 99.6655
+14 99.6655
+15 99.6655
+16 99.6655
+17 99.6655
+18 99.6655
+19 99.6655
+20 99.6655
+21 99.6655
+22 99.6655
+23 99.6655
+24 99.6655
+25 99.6655
+26 99.6655
+27 99.6655
+28 99.6703
+29 99.6655
+e
+1 37.8157
+2 49.8351
+3 49.8304
+4 49.8351
+5 49.8304
+6 49.8351
+7 49.8304
+8 49.8351
+9 49.8304
+10 49.8351
+11 49.8304
+12 49.8351
+13 49.8304
+14 49.8351
+15 49.8304
+16 49.8304
+17 49.8351
+18 49.8351
+19 49.8256
+20 49.8399
+21 49.8304
+22 49.8304
+23 49.8351
+24 49.8351
+25 49.8304
+26 49.8351
+27 49.8304
+28 49.8351
+29 49.8304
+e
+set title "Throughput vs Time\n\n"
+
+set terminal postscript eps enhanced color solid font 'Times-Bold,15'
+set output "Throughput.eps"
+set xlabel "Time (s)" offset 0,-1
+set ylabel "Throughput (Mbps)" offset 0,0 
+set grid
+set lmargin 10.0
+set rmargin 5.0
+set key bmargin center horizontal Left reverse noenhanced autotitles columnhead nobox
+
+plot "-"  title "Flow 1" with linespoints, "-"  title "Flow 2" with linespoints
+1 29.5192
+2 24.9176
+3 24.9152
+4 24.9176
+5 24.9152
+6 24.9176
+7 24.9152
+8 24.9176
+9 24.9152
+10 24.9176
+11 24.9152
+12 24.9176
+13 24.9152
+14 24.9176
+15 24.9152
+16 24.9176
+17 24.9152
+18 24.9176
+19 24.9152
+20 24.9176
+21 24.9152
+22 24.9176
+23 24.9152
+24 24.9176
+25 24.9152
+26 24.9176
+27 24.9152
+28 24.9176
+29 24.9152
+e
+1 49.4543
+2 49.8328
+3 49.8328
+4 49.8328
+5 49.8328
+6 49.8328
+7 49.8328
+8 49.8328
+9 49.8328
+10 49.8328
+11 49.8328
+12 49.8328
+13 49.8328
+14 49.8328
+15 49.8328
+16 49.8328
+17 49.8328
+18 49.8328
+19 49.8328
+20 49.8328
+21 49.8328
+22 49.8328
+23 49.8328
+24 49.8328
+25 49.8328
+26 49.8328
+27 49.8328
+28 49.8328
+29 49.8328
+e
